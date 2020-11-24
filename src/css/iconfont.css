@@ -1,0 +1,33 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1605105341649'); /* IE9 */
+  src: url('iconfont.eot?t=1605105341649#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOYAAsAAAAACFQAAANLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDGgqEBINCATYCJAMUCwwABCAFhG0HTxs9B8gekiQl4hzmgUIeWMA8xcP/r9Hu+zI7a5pUm2Q/XRTJeCZDJIklS5FICXQvYf5Xp/1ULsllUHECxIkO2JWlhJWn6IDdI54IeFiIJpqAxsta2IALGAccZZDM/+F+xovGgeSzb3PJCtsodDYroAF142gkcSAHfGJ6CrU7B3Hln+4T6DOrhO2kb2QcIhT+skA8c9oNiGjolYnS0ArNwN4i3kDVplchzwG8zn4+/kNVRJDUzH/o9EGvCR2/6HeOrGmL+9mCF/tZoQ6RsQ0U4u6g/RIq4tuQPjuuWQf3mhb84tMdv2jCv+0/PEKSFaLhFw+AA5oo/KIRQvDLREj8YgiZX1z4Mh6poA+D+IwfTL28Z2UV8ogW0XJu/GdPR0VNr4w5/ThNO/CkKPbcs8zQg08XabjeD51K1bW+T8JKwqH9H2GaOyLt09s+QioH0MuL285DGohp1gU9OtG2X7KhwXVTF1e+fz/+4cPEp08zP35cFkpn5Nw6p8c+F9twij6KjmzrX1R3S//47eCQFXPwW7Y3qW3v773dtuA9d/fe3fMrknTAAGU526y9VkckGwep2/du5/GJGPbOjtfWxuRl5MWI3oSMhJjGGCC59gEKBtGDgJNwY3FVoZ8qPoLevkVUcoRzqZhHo7p9e/RqaXTKpa3RjfdgGUB3dBfpWRb5eUjQQams+8e/Y+nbleULY1v+R+gF/HybOubtLGCFoJWABX9UADYVR+QbarHqI77lrHbfy9KEPn3o8N1jvuyjnISjhLYhUJD0mIGstYwquG2o+u1Co7UPfbb0H+43TkKi9GLTRgJhxDVIhnyHbMQLVMF9hmrKP2iMBII+15F4Zr/VcOJuyQzFTDK5nDip8PHQpHBeOsrsiz2GrIsy2gwmA84QqSyraKf6mY/JPTYEltirlOKES+ElfeQx5vEI4pfCxagqcyjlbyov50MvKqPCC9gxiTEojImYtBzhRAk+POmu4M73RzF2i3kY5ERDm30GRgpwjk5UKlMBoPrlPqjhXZ4JWMKuiqJwBCcJXkQfsTKeIC4Q/uFZLgyllHGsiPo1KWftOCovO1/pfcZD0Me/r0aKHCVqNHp2qPAs9voi0uzSGmSYJo5qS6lTUg8DAAA=') format('woff2'),
+  url('iconfont.woff?t=1605105341649') format('woff'),
+  url('iconfont.ttf?t=1605105341649') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1605105341649#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-3column:before {
+  content: "\e663";
+}
+
+.icon-column-4:before {
+  content: "\e664";
+}
+
+.icon-add:before {
+  content: "\e665";
+}
+
+.icon-add-circle:before {
+  content: "\e666";
+}
+
