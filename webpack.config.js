@@ -17,6 +17,7 @@ module.exports = {
         loader: "eslint-loader",
         options: {
           fix: false,
+          failOnError: true, // eslint报错时让build出错
         },
       },
       {

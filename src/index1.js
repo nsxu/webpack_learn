@@ -4,4 +4,4 @@ function add (x, y) {
   set.add(y);
   return set;
 }
-console.log(add(1, 2)); // eslint-disable-line
+console.log(add(111,999)); 
