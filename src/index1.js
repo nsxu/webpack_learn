@@ -1,5 +1,7 @@
-function add(x, y) {
-  return x +y;
+function add (x, y) {
+  const set = new Set();
+  set.add(x);
+  set.add(y);
+  return set;
 }
-// eslint-disable-next-line
-console.log(add("2",'3'));
+console.log(add(1, 2)); // eslint-disable-line
