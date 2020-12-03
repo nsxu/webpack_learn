@@ -11,6 +11,21 @@ module.exports = {
   },
   module: {
     rules: [
+      /**
+       * js兼容性处理
+       *  @babel/preset-env：只能处理语法, 新的api不行（例如: Promise）
+       */
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env']
+          }
+        }
+      },
+      // 语法检查
       {
         test: /\.js$/,
         exclude: /node_modules/,

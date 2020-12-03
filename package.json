@@ -12,6 +12,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "babel-loader": "^8.2.2",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^5.0.0",
     "eslint": "^7.14.0",
@@ -31,8 +34,12 @@
   },
   "eslintConfig": {
     "env": {
-      "browser": true, 
+      "browser": true,
       "es2021": true
+    },
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaVersion": 12
     },
     "extends": "eslint:recommended",
     "rules": {
@@ -42,11 +49,26 @@
       ],
       "no-var": 2,
       "prefer-const": "error",
-      "space-before-function-paren": ["error", "always"],
-      "space-in-parens": ["error", "never"],
+      "space-before-function-paren": [
+        "error",
+        "always"
+      ],
+      "space-in-parens": [
+        "error",
+        "never"
+      ],
       "space-infix-ops": "error",
-      "comma-dangle": ["error", "never"],
-      "comma-spacing": ["error", { "before": false, "after": true }]
+      "comma-dangle": [
+        "error",
+        "never"
+      ],
+      "comma-spacing": [
+        "error",
+        {
+          "before": false,
+          "after": true
+        }
+      ]
     }
   }
 }
