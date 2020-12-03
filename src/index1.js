@@ -1,3 +1,5 @@
+// import '@babel/polyfill'
+import "core-js/es6/promise"
 const add =  (x, y) => {
   const set = new Set();
   set.add(x);
@@ -6,4 +8,6 @@ const add =  (x, y) => {
 }
 console.log(add(111, 999)); 
 
-Promise.resolve();
+Promise.resolve(110).then(res => {
+  console.log(res)
+})
