@@ -50,6 +50,18 @@ module.exports = {
           // 'style-loader',
           MiniCssExtractPlugin.loader,
           "css-loader",
+          {
+            loader: "postcss-loader",
+            options: {
+              postcssOptions: {
+                plugins: [
+                  // 'postcss-modules',
+                  'autoprefixer',
+                  'precss',
+                ]
+              }
+            }
+          }
         ],
       },
       {
@@ -81,11 +93,12 @@ module.exports = {
   },
   plugins: [
     new CleanWebpackPlugin(),
-    new htmlWebpackPlugin({ template: "./src/index.html" }),
+    new htmlWebpackPlugin({ template: "./src/index1.html" }),
     new MiniCssExtractPlugin({ filename: "main.css" }),
     new OptimizeCssAssetsWebpackPlugin(),
   ],
-  mode: "development",
+  // mode: "development",
+  mode: "production",
   // 只会在内存中编译打包, 不会向本地输出代码
   devServer: {
     contentBase: resolve(__dirname, "dist"),

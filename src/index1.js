@@ -1,5 +1,7 @@
 // import '@babel/polyfill'
-import "core-js/es6/promise"
+// import "core-js/es6/promise"
+
+import './css/postcss_test.css'
 const add =  (x, y) => {
   const set = new Set();
   set.add(x);

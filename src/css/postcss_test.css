@@ -1,0 +1,11 @@
+$grey: #eee;
+$fz: 20px;
+
+.container {
+  background: $grey;
+  font-size: $fz;
+}
+
+::placeholder {
+  color: gray;
+}

@@ -1,0 +1,19 @@
+module.exports = {
+  plugins: [
+    /**
+     * 支持类似Sass的特性, 如变量等
+     * 例如：$blue: #056ef0;
+     */
+    require('precss'),
+    /**
+     * 解决浏览器前缀
+     */
+    require('autoprefixer'),
+
+    /**
+     * 生成局部环境样式
+     * 如: .title{} -> ._title_1wt6k_25{}
+     */
+    require('postcss-modules')
+  ]
+}
