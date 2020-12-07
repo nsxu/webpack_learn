@@ -95,7 +95,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new htmlWebpackPlugin({ template: "./src/index1.html" }),
     new MiniCssExtractPlugin({ filename: "main.css" }),
-    new OptimizeCssAssetsWebpackPlugin(),
+    new OptimizeCssAssetsWebpackPlugin(), // 压缩css文件
   ],
   // mode: "development",
   mode: "production",
