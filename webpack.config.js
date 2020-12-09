@@ -97,13 +97,15 @@ module.exports = {
     new MiniCssExtractPlugin({ filename: "main.css" }),
     new OptimizeCssAssetsWebpackPlugin(), // 压缩css文件
   ],
-  // mode: "development",
-  mode: "production",
+  mode: "development",
+  // mode: "production",
   // 只会在内存中编译打包, 不会向本地输出代码
   devServer: {
     contentBase: resolve(__dirname, "dist"),
     compress: true,
     port: 10000,
     open: true,
+    // 开启hmr
+    hot: false
   },
 };

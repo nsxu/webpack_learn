@@ -8,8 +8,14 @@ const add =  (x, y) => {
   set.add(y);
   return set;
 }
-console.log(add(111, 999)); 
+console.log(add(111, 55)); 
 
-Promise.resolve(110).then(res => {
-  console.log(res)
-})
+import print from './lib/print'
+print()
+
+// 手动实现js的hmr
+if (module.hot) {
+  module.hot.accept('./lib/print', function () {
+    print()
+  })
+}
