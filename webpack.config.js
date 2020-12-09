@@ -106,6 +106,6 @@ module.exports = {
     port: 10000,
     open: true,
     // 开启hmr
-    hot: false
+    hot: true
   },
 };
