@@ -8,7 +8,7 @@ const add =  (x, y) => {
   set.add(y);
   return set;
 }
-console.log(add(111, 55)); 
+console.log(add(111, 67)); 
 
 import print from './lib/print'
 print()
