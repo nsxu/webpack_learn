@@ -3,7 +3,7 @@ const htmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = {
-  entry: "./src/index2.js",
+  entry: "./test/index.js",
   output: {
     filename: "js/[name].[contenthash].js",
     path: resolve(__dirname, "dist"),
@@ -13,7 +13,7 @@ module.exports = {
   },
   plugins: [
     new CleanWebpackPlugin(),
-    new htmlWebpackPlugin({ template: "./src/index1.html" }),
+    new htmlWebpackPlugin({ template: "./test/index.html" }),
   ],
   mode: "development",
   externals: {
